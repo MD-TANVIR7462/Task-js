@@ -28,7 +28,7 @@ const NavBar = () => {
   return (
     <div
       className={`navbar   ${
-        isScrolled ? " bg-[#2f2d31] shadow-md" : "bg-none"
+        isScrolled ? " bg-white shadow-md" : "bg-none"
       } md:py-6 md:px-16 fixed top-0 z-10`}
     >
       <div className="navbar-start">
