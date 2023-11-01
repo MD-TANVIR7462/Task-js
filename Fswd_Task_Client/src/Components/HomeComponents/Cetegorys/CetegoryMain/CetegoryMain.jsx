@@ -5,7 +5,7 @@ const CetegoryMain = () => {
   const categories = [
     {
       name: "Electronics",
-      image: "https://i.ibb.co/mD72bSb/camera-1.jpg",
+      image: "  https://i.ibb.co/1fmf9JT/pexels-photo-682933.jpg",
     },
     {
       name: "Fashion",

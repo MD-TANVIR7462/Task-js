@@ -30,10 +30,10 @@ const ProductCard = ({ product }) => {
       </div>
       <div className="flex justify-between my-6 px-2">
         <span>
-          <p className="text-sm md:text-lg text-white font-normal">{title}</p>
-          <p className="text-sm md:text-lg text-white font-normal">
+          <p className="text-sm md:text-lg text-white font-light">{title}</p>
+          <p className="text-sm md:text-lg text-white font-light">
             Category -{" "}
-            <span className="text-sm md:text-lg text-white font-normal">
+            <span className="text-sm  md:text-lg text-gray-200 font-light">
               {category}
             </span>
           </p>
