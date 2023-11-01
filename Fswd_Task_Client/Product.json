@@ -1,0 +1,308 @@
+
+ [
+    {
+      "id": 1,
+      "title": "Smartphone",
+      "description": "Stay connected with the latest smartphone technology.",
+      "price": 599.99,
+      "category": "Electronics",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Smartphone"
+    },
+    {
+      "id": 2,
+      "title": "Laptop",
+      "description": "A high-performance laptop for work and play.",
+      "price": 999.99,
+      "category": "Electronics",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Laptop"
+    },
+    {
+      "id": 3,
+      "title": "Tablet",
+      "description": "A versatile tablet for productivity and entertainment.",
+      "price": 299.99,
+      "category": "Electronics",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Tablet"
+    },
+    {
+      "id": 4,
+      "title": "Headphones",
+      "description": "Enjoy your favorite music with these high-quality headphones.",
+      "price": 79.99,
+      "category": "Electronics",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Headphones"
+    },
+    {
+      "id": 5,
+      "title": "Digital Camera",
+      "description": "Capture your moments with this advanced digital camera.",
+      "price": 399.99,
+      "category": "Electronics",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Digital+Camera"
+    },
+    {
+      "id": 6,
+      "title": "Smart Watch",
+      "description": "Stay fit and connected with this stylish smartwatch.",
+      "price": 149.99,
+      "category": "Electronics",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Smart+Watch"
+    },
+    {
+      "id": 7,
+      "title": "Gaming Console",
+      "description": "Experience immersive gaming with the latest gaming console.",
+      "price": 499.99,
+      "category": "Electronics",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Gaming+Console"
+    },
+    {
+      "id": 8,
+      "title": "Wireless Earbuds",
+      "description": "Enjoy wireless freedom with these earbuds.",
+      "price": 89.99,
+      "category": "Electronics",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Wireless+Earbuds"
+    },
+    {
+      "id": 9,
+      "title": "Fashionable Dress",
+      "description": "Elevate your style with this fashionable dress.",
+      "price": 49.99,
+      "category": "Fashion",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Fashionable+Dress"
+    },
+    {
+      "id": 10,
+      "title": "Men's Suit",
+      "description": "Look sharp and confident in this classic men's suit.",
+      "price": 199.99,
+      "category": "Fashion",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Mens+Suit"
+    },
+    {
+      "id": 11,
+      "title": "Sneakers",
+      "description": "Comfortable and stylish sneakers for everyday wear.",
+      "price": 59.99,
+      "category": "Fashion",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Sneakers"
+    },
+    {
+      "id": 12,
+      "title": "Handbag",
+      "description": "A fashionable handbag to complement your outfit.",
+      "price": 79.99,
+      "category": "Fashion",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Handbag"
+    },
+    {
+      "id": 13,
+      "title": "Bedroom Furniture Set",
+      "description": "Upgrade your bedroom with this modern furniture set.",
+      "price": 599.99,
+      "category": "Home & Furniture",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Bedroom+Furniture+Set"
+    },
+    {
+      "id": 14,
+      "title": "Sofa",
+      "description": "Relax in style with this comfortable sofa for your living room.",
+      "price": 399.99,
+      "category": "Home & Furniture",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Sofa"
+    },
+    {
+      "id": 15,
+      "title": "Dining Table Set",
+      "description": "Gather with family and friends around this elegant dining table set.",
+      "price": 699.99,
+      "category": "Home & Furniture",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Dining+Table+Set"
+    },
+    {
+      "id": 16,
+      "title": "Bookshelf",
+      "description": "Organize your books and decor with this stylish bookshelf.",
+      "price": 99.99,
+      "category": "Home & Furniture",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Bookshelf"
+    },
+    {
+      "id": 17,
+      "title": "Makeup Kit",
+      "description": "Enhance your beauty with this comprehensive makeup kit.",
+      "price": 49.99,
+      "category": "Beauty & Personal Care",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Makeup+Kit"
+    },
+    {
+      "id": 18,
+      "title": "Skincare Set",
+      "description": "Achieve radiant skin with this complete skincare set.",
+      "price": 69.99,
+      "category": "Beauty & Personal Care",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Skincare+Set"
+    },
+    {
+      "id": 19,
+      "title": "Shampoo & Conditioner Bundle",
+      "description": "Maintain healthy hair with this shampoo and conditioner bundle.",
+      "price": 29.99,
+      "category": "Beauty & Personal Care",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Shampoo+%26+Conditioner+Bundle"
+    },
+    {
+      "id": 20,
+      "title": "Perfume",
+      "description": "Smell irresistible with this exquisite perfume.",
+      "price": 79.99,
+      "category": "Beauty & Personal Care",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Perfume"
+    },
+    {
+      "id": 21,
+      "title": "Novel Book",
+      "description": "Get lost in the pages of this captivating novel.",
+      "price": 14.99,
+      "category": "Books, Movies & Music",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Novel+Book"
+    },
+    {
+      "id": 22,
+      "title": "Action Movie Blu-ray",
+      "description": "Enjoy an action-packed movie night with this Blu-ray disc.",
+      "price": 19.99,
+      "category": "Books, Movies & Music",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Action+Movie+Blu-ray"
+    },
+    {
+      "id": 23,
+      "title": "Classical Music CD",
+      "description": "Listen to beautiful classical music with this CD collection.",
+      "price": 12.99,
+      "category": "Books, Movies & Music",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Classical+Music+CD"
+    },
+    {
+      "id": 24,
+      "title": "Cookbook",
+      "description": "Discover new recipes and culinary techniques with this cookbook.",
+      "price": 16.99,
+      "category": "Books, Movies & Music",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Cookbook"
+    },
+    {
+      "id": 25,
+      "title": "Fitness Equipment",
+      "description": "Stay healthy and active with this fitness equipment.",
+      "price": 49.99,
+      "category": "Health & Wellness",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Fitness+Equipment"
+    },
+    {
+      "id": 26,
+      "title": "Vitamins & Supplements",
+      "description": "Boost your health with these essential vitamins and supplements.",
+      "price": 29.99,
+      "category": "Health & Wellness",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Vitamins+%26+Supplements"
+    },
+    {
+      "id": 27,
+      "title": "Yoga Mat",
+      "description": "Practice yoga and meditation on this comfortable mat.",
+      "price": 19.99,
+      "category": "Health & Wellness",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Yoga+Mat"
+    },
+    {
+      "id": 28,
+      "title": "Aromatherapy Diffuser",
+      "description": "Create a relaxing atmosphere with this aromatherapy diffuser.",
+      "price": 24.99,
+      "category": "Health & Wellness",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Aromatherapy+Diffuser"
+    },
+    {
+      "id": 29,
+      "title": "Gaming Mouse",
+      "description": "Enhance your gaming experience with this high-precision mouse.",
+      "price": 49.99,
+      "category": "Electronics",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Gaming+Mouse"
+    },
+    {
+      "id": 30,
+      "title": "Wristwatch",
+      "description": "Complete your outfit with this stylish wristwatch.",
+      "price": 79.99,
+      "category": "Fashion",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Wristwatch"
+    },
+    {
+      "id": 31,
+      "title": "Dining Chairs Set",
+      "description": "Upgrade your dining room with this set of elegant chairs.",
+      "price": 249.99,
+      "category": "Home & Furniture",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Dining+Chairs+Set"
+    },
+    {
+      "id": 32,
+      "title": "Curling Iron",
+      "description": "Achieve stunning curls with this professional curling iron.",
+      "price": 34.99,
+      "category": "Beauty & Personal Care",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Curling+Iron"
+    },
+      {
+        "id": 112,
+        "title": "Makeup Kit",
+        "description": "Enhance your beauty with this comprehensive makeup kit.",
+        "price": 49.99,
+        "category": "Beauty & Personal Care",
+        "image": "https://dummyimage.com/200x200/333/fff&text=Makeup+Kit"
+      },
+      {
+        "id": 212,
+        "title": "Skincare Set",
+        "description": "Achieve radiant skin with this complete skincare set.",
+        "price": 69.99,
+        "category": "Beauty & Personal Care",
+        "image": "https://dummyimage.com/200x200/333/fff&text=Skincare+Set"
+      },
+      {
+        "id": 322,
+        "title": "Shampoo & Conditioner Bundle",
+        "description": "Maintain healthy hair with this shampoo and conditioner bundle.",
+        "price": 29.99,
+        "category": "Beauty & Personal Care",
+        "image": "https://dummyimage.com/200x200/333/fff&text=Shampoo+%26+Conditioner+Bundle"
+      },
+      {
+        "id": 412,
+        "title": "Perfume",
+        "description": "Smell irresistible with this exquisite perfume.",
+        "price": 79.99,
+        "category": "Beauty & Personal Care",
+        "image": "https://dummyimage.com/200x200/333/fff&text=Perfume"
+      },
+      {
+        "id": 512,
+        "title": "Curling Iron",
+        "description": "Achieve stunning curls with this professional curling iron.",
+        "price": 34.99,
+        "category": "Beauty & Personal Care",
+        "image": "https://dummyimage.com/200x200/333/fff&text=Curling+Iron"
+      },
+      {
+        "id": 611,
+        "title": "Facial Cleanser",
+        "description": "Keep your skin clean and refreshed with this facial cleanser.",
+        "price": 12.99,
+        "category": "Beauty & Personal Care",
+        "image": "https://dummyimage.com/200x200/333/fff&text=Facial+Cleanser"
+      }
+  ]
+
