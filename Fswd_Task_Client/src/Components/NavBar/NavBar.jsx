@@ -21,10 +21,16 @@ const NavBar = () => {
     };
   }, []);
 
-  const navitems = (<>
-   <li className="text-white font-semibold text-xl"><a>Home</a></li>
-   <li  className="text-white font-semibold text-xl"><a>Shop</a></li>
-   </>)
+  const navitems = (
+    <>
+      <li className="text-white font-semibold text-xl">
+        <a>Home</a>
+      </li>
+      <li className="text-white font-semibold text-xl">
+        <a>Shop</a>
+      </li>
+    </>
+  );
   return (
     <div
       className={`navbar   ${
@@ -62,7 +68,7 @@ const NavBar = () => {
         <ul className="menu menu-horizontal px-1">{navitems}</ul>
       </div>
       <div className="navbar-end">
-       <Button text={"Login"}></Button>
+        <Button text={"Login"}></Button>
       </div>
     </div>
   );

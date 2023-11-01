@@ -22,9 +22,9 @@ const CetegoryMain = () => {
 
   ];
   return (
-  <>
- <h2 className=' text-2xl md:text-4xl font-bold text-center  mt-16 mb-8 '>Shop By Category</h2>
-    <div className="z-0 grid grid-cols-4 gap-8 w-[84%]  mx-auto">
+  <div className="w-[84%]  mx-auto">
+ <h2 className='  text-2xl md:text-2xl font-semibold  text-center  mt-16 mb-8 text-white '>Shop By Category</h2>
+    <div className="z-0 grid grid-cols-4 gap-8  ">
       {categories.map((category, index) => (
         <CategoryCard
           name={category.name}
@@ -32,7 +32,7 @@ const CetegoryMain = () => {
           key={index}
         ></CategoryCard>
       ))}
-    </div></>
+    </div></div>
   );
 };
 
