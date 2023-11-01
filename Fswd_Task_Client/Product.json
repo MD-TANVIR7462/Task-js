@@ -9,29 +9,30 @@
       "image": "https://dummyimage.com/200x200/333/fff&text=Smartphone"
     },
     {
-      "id": 2,
-      "title": "Laptop",
-      "description": "A high-performance laptop for work and play.",
-      "price": 999.99,
-      "category": "Electronics",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Laptop"
+      "id": 10,
+      "title": "Men's Suit",
+      "description": "Look sharp and confident in this classic men's suit.",
+      "price": 199.99,
+      "category": "Fashion",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Mens+Suit"
     },
     {
-      "id": 3,
-      "title": "Tablet",
-      "description": "A versatile tablet for productivity and entertainment.",
-      "price": 299.99,
-      "category": "Electronics",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Tablet"
+      "id": 17,
+      "title": "Makeup Kit",
+      "description": "Enhance your beauty with this comprehensive makeup kit.",
+      "price": 49.99,
+      "category": "Beauty & Personal Care",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Makeup+Kit"
     },
     {
-      "id": 4,
-      "title": "Headphones",
-      "description": "Enjoy your favorite music with these high-quality headphones.",
-      "price": 79.99,
-      "category": "Electronics",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Headphones"
+      "id": 27,
+      "title": "Yoga Mat",
+      "description": "Practice yoga and meditation on this comfortable mat.",
+      "price": 19.99,
+      "category": "Health & Wellness",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Yoga+Mat"
     },
+   
     {
       "id": 5,
       "title": "Digital Camera",
@@ -73,12 +74,12 @@
       "image": "https://dummyimage.com/200x200/333/fff&text=Fashionable+Dress"
     },
     {
-      "id": 10,
-      "title": "Men's Suit",
-      "description": "Look sharp and confident in this classic men's suit.",
-      "price": 199.99,
-      "category": "Fashion",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Mens+Suit"
+      "id": 2,
+      "title": "Laptop",
+      "description": "A high-performance laptop for work and play.",
+      "price": 999.99,
+      "category": "Electronics",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Laptop"
     },
     {
       "id": 11,
@@ -129,12 +130,12 @@
       "image": "https://dummyimage.com/200x200/333/fff&text=Bookshelf"
     },
     {
-      "id": 17,
-      "title": "Makeup Kit",
-      "description": "Enhance your beauty with this comprehensive makeup kit.",
-      "price": 49.99,
-      "category": "Beauty & Personal Care",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Makeup+Kit"
+      "id": 3,
+      "title": "Tablet",
+      "description": "A versatile tablet for productivity and entertainment.",
+      "price": 299.99,
+      "category": "Electronics",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Tablet"
     },
     {
       "id": 18,
@@ -209,12 +210,12 @@
       "image": "https://dummyimage.com/200x200/333/fff&text=Vitamins+%26+Supplements"
     },
     {
-      "id": 27,
-      "title": "Yoga Mat",
-      "description": "Practice yoga and meditation on this comfortable mat.",
-      "price": 19.99,
-      "category": "Health & Wellness",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Yoga+Mat"
+      "id": 4,
+      "title": "Headphones",
+      "description": "Enjoy your favorite music with these high-quality headphones.",
+      "price": 79.99,
+      "category": "Electronics",
+      "image": "https://dummyimage.com/200x200/333/fff&text=Headphones"
     },
     {
       "id": 28,
