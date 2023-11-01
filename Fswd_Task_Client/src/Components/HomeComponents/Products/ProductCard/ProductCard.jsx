@@ -18,8 +18,8 @@ const ProductCard = ({ product }) => {
   const { id, title, description, price, category, image } = product;
 
   return (
-    <div className="mb-3 md:mb-0 shadow-lg hover:shadow-md transition-shadow duration-300 rounded-lg ">
-      <div className="relative bg-white rounded-md overflow-hidden cursor-pointer hover:shadow-lg transition-transform duration-700">
+    <div className="mb-3 md:mb-0 shadow-lg hover:shadow-md transition-shadow duration-300 rounded-lg  ">
+      <div className="relative  rounded-md overflow-hidden cursor-pointer hover:shadow-lg transition-transform duration-700">
         <div className="group">
           <img
             src={image}
@@ -88,7 +88,9 @@ const ProductCard = ({ product }) => {
             <img src={img} alt="IMG" className="rounded-lg w-full h-[30vh]" />
             <p className="text-md font-medium  my-3">
               Discription -{" "}
-              <span className="font-normal text-gray-300 text-sm">{Discription}</span>{" "}
+              <span className="font-normal text-gray-300 text-sm">
+                {Discription}
+              </span>{" "}
             </p>
           </div>
         </div>

@@ -33,9 +33,17 @@ const NavBar = () => {
   );
   return (
     <div
-      className={`navbar   ${
-        isScrolled ? " bg-white shadow-md" : "bg-none"
+      className={`navbar ${
+        isScrolled ? "shadow-2xl" : "bg-none"
       } md:py-6 md:px-16 fixed top-0 z-10`}
+      style={
+        isScrolled
+          ? {
+              backgroundColor: "rgba(255, 255, 255, 0.1)",
+              backdropFilter: "blur(10px)",
+            }
+          : {}
+      }
     >
       <div className="navbar-start">
         <div className="dropdown">
