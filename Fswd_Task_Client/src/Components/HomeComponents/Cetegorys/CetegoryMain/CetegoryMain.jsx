@@ -6,6 +6,7 @@ const CetegoryMain = () => {
     {
       name: "Electronics",
       image: "  https://i.ibb.co/1fmf9JT/pexels-photo-682933.jpg",
+      
     },
     {
       name: "Fashion",
@@ -30,6 +31,7 @@ const CetegoryMain = () => {
           name={category.name}
           img={category.image}
           key={index}
+           
         ></CategoryCard>
       ))}
     </div></div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../../Buttons/Button";
+import { Link } from "react-router-dom";
 
 const CategoryCard = ({name,img}) => {
   return (
@@ -14,7 +15,7 @@ const CategoryCard = ({name,img}) => {
         <h2 className="card-title mt-auto">{name}</h2>
         
         <div className="card-actions ">
-          <Button text={'Shop Now'}></Button>
+          <Link to={`/shop/${name}`}><Button text={'Shop Now'}></Button></Link>
         </div>
       </div>
     </div>

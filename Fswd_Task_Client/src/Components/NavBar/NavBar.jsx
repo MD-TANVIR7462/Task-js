@@ -29,7 +29,7 @@ const NavBar = () => {
         <a>Home</a>
       </li>
      </Link>
-     <Link to={'/shop'}>
+     <Link to={`/shop/All`}>
      <li className="text-white font-semibold text-xl">
         <a>Shop</a>
       </li>
