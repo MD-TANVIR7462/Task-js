@@ -14,11 +14,11 @@ const CetegoryMain = () => {
     },
     {
       name: "Home & Furniture",
-      image: "https://i.ibb.co/yFNQpQf/240-F-119426880-bh-RT6bs-E992-Hsm-St-CFacjum6h-Tffn90-E.jpg",
+      image: "  https://i.ibb.co/gTFqyHW/istockphoto-1251694108-612x612.jpg",
     },
     {
       name: "Beauty & Personal Care",
-      image: "https://i.ibb.co/yFNQpQf/240-F-119426880-bh-RT6bs-E992-Hsm-St-CFacjum6h-Tffn90-E.jpg",
+      image: "https://i.ibb.co/5x196v6/istockphoto-1316218884-612x612.jpg",
     },
 
   ];

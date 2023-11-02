@@ -19,7 +19,7 @@ const BennerSlider = ({img}) => {
             ULTIMATE DISCOUNT 
           </h1>
        
-       <Button text={"Shop Now"} ></Button>
+       <Link to={'/shop/All'}><Button text={"Shop Now"} ></Button></Link>
         </div>
       </div>
     </div>

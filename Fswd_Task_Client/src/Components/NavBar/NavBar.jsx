@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import Button from "../Buttons/Button";
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -75,7 +74,7 @@ const NavBar = () => {
             {navitems}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">E-House</a>
+       <Link to={'/'}> <a className="btn btn-ghost normal-case text-xl"><img src="https://i.ibb.co/DQgJfhL/images-2.png" className="w-12 rounded-full h-12" alt="" /></a></Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navitems}</ul>

@@ -22,7 +22,7 @@
       "description": "Enhance your beauty with this comprehensive makeup kit.",
       "price": 49.99,
       "category": "Beauty & Personal Care",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Makeup+Kit"
+      "image": "https://i.ibb.co/5BRq67p/istockphoto-1345601829-612x612.jpg"
     },
     {
       "id": 27,
@@ -30,7 +30,7 @@
       "description": "Practice yoga and meditation on this comfortable mat.",
       "price": 19.99,
       "category": "Health & Wellness",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Yoga+Mat"
+      "image": "https://i.ibb.co/brmVpmg/istockphoto-1472355032-612x612.jpg"
     },
    
     {
@@ -49,21 +49,14 @@
       "category": "Fashion",
       "image": "  https://i.ibb.co/pWNBvHy/pexels-photo-845434.jpg"
     },
-    {
-      "id": 24,
-      "title": "Cookbook",
-      "description": "Discover new recipes and culinary techniques with this cookbook.",
-      "price": 16.99,
-      "category": "Books, Movies & Music",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Cookbook"
-    },
+
     {
       "id": 20,
       "title": "Perfume",
       "description": "Smell irresistible with this exquisite perfume.",
       "price": 79.99,
       "category": "Beauty & Personal Care",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Perfume"
+      "image": "https://i.ibb.co/ySWhx30/istockphoto-1397790017-612x612.jpg"
     },
     {
       "id": 6,
@@ -120,7 +113,7 @@
       "description": "Upgrade your bedroom with this modern furniture set.",
       "price": 599.99,
       "category": "Home & Furniture",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Bedroom+Furniture+Set"
+      "image": "https://i.ibb.co/q737Ffz/istockphoto-874810786-612x612.jpg"
     },
     {
       "id": 14,
@@ -128,7 +121,7 @@
       "description": "Relax in style with this comfortable sofa for your living room.",
       "price": 399.99,
       "category": "Home & Furniture",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Sofa"
+      "image": " https://i.ibb.co/28DhCz9/istockphoto-1415799772-612x612.jpg"
     },
     {
       "id": 15,
@@ -136,7 +129,7 @@
       "description": "Gather with family and friends around this elegant dining table set.",
       "price": 699.99,
       "category": "Home & Furniture",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Dining+Table+Set"
+      "image": "  https://i.ibb.co/mB0xnCQ/istockphoto-1311783252-612x612.jpg"
     },
     {
       "id": 16,
@@ -144,7 +137,7 @@
       "description": "Organize your books and decor with this stylish bookshelf.",
       "price": 99.99,
       "category": "Home & Furniture",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Bookshelf"
+      "image": "https://i.ibb.co/4thD0Kd/istockphoto-1342231645-612x612.jpg"
     },
     {
       "id": 3,
@@ -160,7 +153,7 @@
       "description": "Achieve radiant skin with this complete skincare set.",
       "price": 69.99,
       "category": "Beauty & Personal Care",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Skincare+Set"
+      "image": "  https://i.ibb.co/D98YFvW/istockphoto-1445826806-612x612.jpg"
     },
     {
       "id": 19,
@@ -168,32 +161,7 @@
       "description": "Maintain healthy hair with this shampoo and conditioner bundle.",
       "price": 29.99,
       "category": "Beauty & Personal Care",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Shampoo+%26+Conditioner+Bundle"
-    },
-
-    {
-      "id": 21,
-      "title": "Novel Book",
-      "description": "Get lost in the pages of this captivating novel.",
-      "price": 14.99,
-      "category": "Books, Movies & Music",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Novel+Book"
-    },
-    {
-      "id": 22,
-      "title": "Action Movie Blu-ray",
-      "description": "Enjoy an action-packed movie night with this Blu-ray disc.",
-      "price": 19.99,
-      "category": "Books, Movies & Music",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Action+Movie+Blu-ray"
-    },
-    {
-      "id": 23,
-      "title": "Classical Music CD",
-      "description": "Listen to beautiful classical music with this CD collection.",
-      "price": 12.99,
-      "category": "Books, Movies & Music",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Classical+Music+CD"
+      "image": "https://i.ibb.co/C9qD931/istockphoto-1147747445-612x612.jpg"
     },
    
     {
@@ -202,7 +170,7 @@
       "description": "Stay healthy and active with this fitness equipment.",
       "price": 49.99,
       "category": "Health & Wellness",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Fitness+Equipment"
+      "image": "https://i.ibb.co/ZSjtNRG/istockphoto-1187354794-612x612.jpg"
     },
     {
       "id": 26,
@@ -210,7 +178,7 @@
       "description": "Boost your health with these essential vitamins and supplements.",
       "price": 29.99,
       "category": "Health & Wellness",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Vitamins+%26+Supplements"
+      "image": "https://i.ibb.co/28n0qZP/istockphoto-184874014-612x612.jpg"
     },
     {
       "id": 4,
@@ -226,7 +194,7 @@
       "description": "Create a relaxing atmosphere with this aromatherapy diffuser.",
       "price": 24.99,
       "category": "Health & Wellness",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Aromatherapy+Diffuser"
+      "image": "https://i.ibb.co/M1NSzvx/istockphoto-621582470-612x612.jpg"
     },
     {
       "id": 29,
@@ -250,7 +218,7 @@
       "description": "Upgrade your dining room with this set of elegant chairs.",
       "price": 249.99,
       "category": "Home & Furniture",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Dining+Chairs+Set"
+      "image": " https://i.ibb.co/D5bNNYX/istockphoto-1309042044-612x612.jpg"
     },
     {
       "id": 32,
@@ -258,7 +226,7 @@
       "description": "Achieve stunning curls with this professional curling iron.",
       "price": 34.99,
       "category": "Beauty & Personal Care",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Curling+Iron"
+      "image": "https://i.ibb.co/8BhHK7J/istockphoto-1136422297-612x612.jpg"
     },
       {
         "id": 112,
@@ -266,7 +234,7 @@
         "description": "Enhance your beauty with this comprehensive makeup kit.",
         "price": 49.99,
         "category": "Beauty & Personal Care",
-        "image": "https://dummyimage.com/200x200/333/fff&text=Makeup+Kit"
+        "image": "https://i.ibb.co/gZNQjBL/istockphoto-937257600-612x612.jpg"
       },
       {
         "id": 212,
@@ -274,7 +242,7 @@
         "description": "Achieve radiant skin with this complete skincare set.",
         "price": 69.99,
         "category": "Beauty & Personal Care",
-        "image": "https://dummyimage.com/200x200/333/fff&text=Skincare+Set"
+        "image": "https://i.ibb.co/vQw3ZPW/istockphoto-873899208-612x612.jpg"
       },
       {
         "id": 322,
@@ -282,7 +250,7 @@
         "description": "Maintain healthy hair with this shampoo and conditioner bundle.",
         "price": 29.99,
         "category": "Beauty & Personal Care",
-        "image": "https://dummyimage.com/200x200/333/fff&text=Shampoo+%26+Conditioner+Bundle"
+        "image": "https://i.ibb.co/tK8TD4d/istockphoto-584574708-612x612.jpg"
       },
       {
         "id": 412,
@@ -290,7 +258,7 @@
         "description": "Smell irresistible with this exquisite perfume.",
         "price": 79.99,
         "category": "Beauty & Personal Care",
-        "image": "https://dummyimage.com/200x200/333/fff&text=Perfume"
+        "image": " https://i.ibb.co/Sv6R2yX/istockphoto-690043308-612x612.jpg"
       },
       {
         "id": 512,
@@ -298,7 +266,7 @@
         "description": "Achieve stunning curls with this professional curling iron.",
         "price": 34.99,
         "category": "Beauty & Personal Care",
-        "image": "https://dummyimage.com/200x200/333/fff&text=Curling+Iron"
+        "image": "https://i.ibb.co/KWGV5F4/istockphoto-174627639-612x612.jpg"
       },
       {
         "id": 611,
@@ -306,7 +274,7 @@
         "description": "Keep your skin clean and refreshed with this facial cleanser.",
         "price": 12.99,
         "category": "Beauty & Personal Care",
-        "image": "https://dummyimage.com/200x200/333/fff&text=Facial+Cleanser"
+        "image": "https://i.ibb.co/Kwvr3LR/istockphoto-121111405-612x612.jpg"
       }
   ]
 
@@ -314,7 +282,24 @@
 
 
   
-
+  
 
  
+
+  
  
+ 
+  
+
+
+
+  
+  
+  
+  
+  
+  
+
+  
+  
+  
