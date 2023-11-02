@@ -12,7 +12,7 @@ const ShopMain = () => {
   const { category } = useParams();
 
 
-  
+
   useEffect(() => {
     try {
       fetch("https://server-blush-five.vercel.app/products")
@@ -71,7 +71,7 @@ const ShopMain = () => {
 
   const indexOfLastProduct = currentPage * productsPerPage;
   const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
-  const currentProducts = finalProducts.slice(
+  const currentProducts = finalProducts?.slice(
     indexOfFirstProduct,
     indexOfLastProduct
   );
