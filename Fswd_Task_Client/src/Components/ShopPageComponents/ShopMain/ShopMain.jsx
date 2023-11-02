@@ -5,7 +5,12 @@ import { useParams } from "react-router-dom";
 const ShopMain = () => {
   const [products, setProducts] = useState([]);
   const [finalProducts, setFinalProducts] = useState([]);
+  const [sortOption, setSortOption] = useState(null);
+  const [currentPage, setCurrentPage] = useState(1);
+  const productsPerPage = 12;
+
   const { category } = useParams();
+
   useEffect(() => {
     try {
       fetch("../../../../Product.json")
@@ -32,26 +37,42 @@ const ShopMain = () => {
     }
   }, [products, category]);
 
-  const handleCategoryChange = (e) => {
-    if (products.length > 1) {
-      filterProducts(e.target.value);
+  const sortProducts = (option) => {
+    setSortOption(option);
+    let sortedProducts = [...finalProducts];
+    if (option === "LowToHigh") {
+      sortedProducts.sort((a, b) => a.price - b.price);
+    } else if (option === "HighToLow") {
+      sortedProducts.sort((a, b) => b.price - a.price);
     }
+    setFinalProducts(sortedProducts);
   };
-
-  const handlePriceChange = (e) => {};
-
-  const filterProducts = (cat) => {
-    if (products?.length > 1 && cat === "All") {
+  const handleCategoryChange = (e) => {
+    const selectedCategory = e.target.value;
+    if (selectedCategory === "All") {
       setFinalProducts(products);
-    }
-
-    if (products?.length > 1 && cat !== "All") {
-      const filteredProducts = products?.filter(
-        (singleproduct) => singleproduct?.category === cat
+    } else {
+      const filteredProducts = products.filter(
+        (product) => product.category === selectedCategory
       );
       setFinalProducts(filteredProducts);
     }
   };
+
+  const handlePriceChange = (e) => {
+    sortProducts(e.target.value);
+  };
+
+  const paginateProducts = (pageNumber) => {
+    setCurrentPage(pageNumber);
+  };
+
+  const indexOfLastProduct = currentPage * productsPerPage;
+  const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
+  const currentProducts = finalProducts.slice(
+    indexOfFirstProduct,
+    indexOfLastProduct
+  );
 
   return (
     <div className="mt-[20%] md:mt-[8%] w-[85%] mx-auto">
@@ -64,11 +85,11 @@ const ShopMain = () => {
             onChange={handlePriceChange}
             className="select select-sm w-full max-w-xs text-white select-secondary"
           >
-            <option disabled selected>
-              Short By price
+            <option disabled value="">
+              Sort By price
             </option>
-            <option>Low To High</option>
-            <option>High To Low</option>
+            <option value="LowToHigh">Low To High</option>
+            <option value="HighToLow">High To Low</option>
           </select>
 
           <select
@@ -89,9 +110,42 @@ const ShopMain = () => {
       </div>
 
       <div className="grid gap-6 grid-cols-4 my-16">
-        {finalProducts?.map((product) => (
+        {currentProducts.map((product) => (
           <ProductCard product={product} key={product.id} />
         ))}
+      </div>
+
+    
+      <div className="pagination flex justify-center items-center my-8">
+        <span
+          className="btn btn-outline btn-xs mr-2"
+          onClick={() => paginateProducts(currentPage - 1)}
+          disabled={currentPage === 1}
+        >
+          Previous
+        </span>
+        {Array(Math.ceil(finalProducts.length / productsPerPage))
+          .fill()
+          .map((_, index) => (
+            <button
+              key={index}
+              className={`btn btn-outline btn-xs mr-2 ${
+                currentPage === index + 1 ? "btn-primary" : ""
+              }`}
+              onClick={() => paginateProducts(index + 1)}
+            >
+              {index + 1}
+            </button>
+          ))}
+        <button
+          className="btn btn-outline btn-xs"
+          onClick={() => paginateProducts(currentPage + 1)}
+          disabled={
+            currentPage === Math.ceil(finalProducts.length / productsPerPage)
+          }
+        >
+          Next
+        </button>
       </div>
     </div>
   );
