@@ -14,7 +14,7 @@
       "description": "Look sharp and confident in this classic men's suit.",
       "price": 199.99,
       "category": "Fashion",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Mens+Suit"
+      "image": "https://i.ibb.co/0nhXNJ5/pexels-photo-701877.webp"
     },
     {
       "id": 17,
@@ -47,7 +47,7 @@
       "description": "Elevate your style with this fashionable dress.",
       "price": 49.99,
       "category": "Fashion",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Fashionable+Dress"
+      "image": "  https://i.ibb.co/pWNBvHy/pexels-photo-845434.jpg"
     },
     {
       "id": 24,
@@ -104,7 +104,7 @@
       "description": "Comfortable and stylish sneakers for everyday wear.",
       "price": 59.99,
       "category": "Fashion",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Sneakers"
+      "image": " https://i.ibb.co/GsQVMTh/pexels-photo-934063.jpg"
     },
     {
       "id": 12,
@@ -112,7 +112,7 @@
       "description": "A fashionable handbag to complement your outfit.",
       "price": 79.99,
       "category": "Fashion",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Handbag"
+      "image": "  https://i.ibb.co/kqxNWrG/pexels-photo-1126993.webp"
     },
     {
       "id": 13,
@@ -242,7 +242,7 @@
       "description": "Complete your outfit with this stylish wristwatch.",
       "price": 79.99,
       "category": "Fashion",
-      "image": "https://dummyimage.com/200x200/333/fff&text=Wristwatch"
+      "image": "  https://i.ibb.co/3zwB0YM/pexels-photo-1300550.jpg"
     },
     {
       "id": 31,
@@ -311,3 +311,10 @@
   ]
 
 
+
+
+  
+
+
+ 
+ 

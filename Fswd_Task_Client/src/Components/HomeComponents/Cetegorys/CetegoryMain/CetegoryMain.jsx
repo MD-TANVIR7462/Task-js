@@ -9,7 +9,7 @@ const CetegoryMain = () => {
     },
     {
       name: "Fashion",
-      image: "https://i.ibb.co/mD72bSb/camera-1.jpg",
+      image: "https://i.ibb.co/RzRw1BN/pexels-photo-135620.webp",
     },
     {
       name: "Home & Furniture",

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Button from "../Buttons/Button";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -23,12 +24,16 @@ const NavBar = () => {
 
   const navitems = (
     <>
-      <li className="text-white font-semibold text-xl">
+     <Link to={'/'}>
+     <li className="text-white font-semibold text-xl">
         <a>Home</a>
       </li>
-      <li className="text-white font-semibold text-xl">
+     </Link>
+     <Link to={'/shop'}>
+     <li className="text-white font-semibold text-xl">
         <a>Shop</a>
       </li>
+     </Link>
     </>
   );
   return (
