@@ -24,5 +24,6 @@ This project is a web application built with React.js, styled-components, Tailwi
 
 ## Screenshots
 
-![Screenshot 1](path-to-screenshot-1.png)
-![Screenshot 2](path-to-screenshot-2.png)
+<p align="center">
+  <img src="https://i.ibb.co/17PPnfp/Screen-Capture-033-Shopping-House-devtowntask-vercel-app.jpg" alt="shopping house" width="500" height="400">
+</p>
