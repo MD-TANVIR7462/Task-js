@@ -11,6 +11,8 @@ const ShopMain = () => {
 
   const { category } = useParams();
 
+
+  
   useEffect(() => {
     try {
       fetch("https://server-blush-five.vercel.app/products")
