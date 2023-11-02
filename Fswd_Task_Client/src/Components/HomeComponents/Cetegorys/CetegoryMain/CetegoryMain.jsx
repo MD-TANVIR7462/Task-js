@@ -24,8 +24,8 @@ const CetegoryMain = () => {
   ];
   return (
   <div className="w-[84%]  mx-auto">
- <h2 className='  text-2xl md:text-2xl font-semibold  text-center  mt-16 mb-8 text-white '>Shop By Category</h2>
-    <div className="z-0 grid grid-cols-4 gap-8  ">
+ <h2 className='  text-2xl md:text-2xl font-semibold  text-center mt-8 md:mt-12 lg:mt-16 mb-6 lg:mb-8 text-white '>Shop By Category</h2>
+    <div className="z-0 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 lg:gap-8  ">
       {categories.map((category, index) => (
         <CategoryCard
           name={category.name}

@@ -7,13 +7,13 @@ const ShopMain = () => {
   const [finalProducts, setFinalProducts] = useState([]);
   const [sortOption, setSortOption] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
-  const productsPerPage = 12;
+  const productsPerPage = 8;
 
   const { category } = useParams();
 
   useEffect(() => {
     try {
-      fetch("../../../../Product.json")
+      fetch("https://server-blush-five.vercel.app/products")
         .then((res) => res.json())
         .then((data) => {
           setProducts(data);
@@ -75,12 +75,12 @@ const ShopMain = () => {
   );
 
   return (
-    <div className="mt-[20%] md:mt-[8%] w-[85%] mx-auto">
-      <div className="flex justify-between">
+    <div className="mt-[20%] md:mt-[16%] lg:mt-[12%] xl:mt-[9%] w-[85%] mx-auto">
+      <div className=" md:flex  justify-between">
         <p className="text-2xl md:text-4xl font-semibold text-center text-white">
           Meet Our Products
         </p>
-        <div className="flex gap-4">
+        <div className="mt-5 md:-mt-0 flex gap-4">
           <select
             onChange={handlePriceChange}
             className="select select-sm w-full max-w-xs text-white select-secondary"
@@ -108,8 +108,16 @@ const ShopMain = () => {
           </select>
         </div>
       </div>
-
-      <div className="grid gap-6 grid-cols-4 my-16">
+      {products.length===0 &&  <p className=" flex items-center justify-center text-center h-[30dvh] md:h-[50dvh] ">
+          {" "}
+          <button className="btn  text-white">
+            <span className="loading loading-spinner"></span>
+            loading
+          </button>
+        </p>
+        }
+      <div className=" grid gap-4 md:gap-5 lg:gap-6 md:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4   my-16">
+      
         {currentProducts.map((product) => (
           <ProductCard product={product} key={product.id} />
         ))}

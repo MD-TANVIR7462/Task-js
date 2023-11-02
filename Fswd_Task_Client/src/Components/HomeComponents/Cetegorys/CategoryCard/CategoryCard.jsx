@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const CategoryCard = ({name,img}) => {
   return (
-    <div className="card  bg-base-100 shadow-xl h-[70%] image-full z-0">
+    <div className="card  bg-base-100 shadow-xl h-[90%] md:h[80%] lg:h-[70%] image-full z-0">
       <figure>
         <img
           src={img}

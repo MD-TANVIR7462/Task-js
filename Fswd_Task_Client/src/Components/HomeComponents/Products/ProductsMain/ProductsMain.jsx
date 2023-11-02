@@ -6,7 +6,7 @@ const ProductsMain = () => {
 
   useEffect(() => {
     try {
-      fetch("../../../../../Product.json")
+      fetch("https://server-blush-five.vercel.app/products")
         .then((res) => res.json())
         .then((data) => {
           setProducts(data.slice(0, 8));
@@ -18,10 +18,10 @@ const ProductsMain = () => {
   }, []);
   return (
     <div className="mb-12">
-      <h2 className="  text-2xl md:text-2xl font-semibold text-center  mb-8 text-white ">
+      <h2 className="  text-2xl md:text-2xl font-semibold text-center  mt-10 md:mt-0 mb-5 md:mb-7 lg:mb-8 text-white ">
         Our Populer Product's
       </h2>
-      <div className="grid gap-6 grid-cols-4 w-[85%] mx-auto">
+      <div className="grid gap-4 md:gap-5 lg:gap-6 md:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4  w-[85%] mx-auto">
         {Products?.map((product) => (
           <ProductCard product={product} key={product.id}></ProductCard>
         ))}
