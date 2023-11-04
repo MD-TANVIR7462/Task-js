@@ -5,15 +5,13 @@ const ProductsMain = () => {
   const [Products, setProducts] = useState([]);
 
   useEffect(() => {
-    try {
+   
       fetch("https://server-blush-five.vercel.app/products")
         .then((res) => res.json())
         .then((data) => {
           setProducts(data.slice(0, 8));
         });
-    } catch (err) {
-      console.log(err);
-    }
+   
   }, []);
   return (
     <div className="mb-12">

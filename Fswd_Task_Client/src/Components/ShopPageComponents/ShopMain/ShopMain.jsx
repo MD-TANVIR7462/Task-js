@@ -14,16 +14,14 @@ const ShopMain = () => {
 
 
   useEffect(() => {
-    try {
+   
       fetch("https://server-blush-five.vercel.app/products")
         .then((res) => res.json())
         .then((data) => {
           setProducts(data);
           setFinalProducts(data);
         });
-    } catch (err) {
-      console.log(err);
-    }
+  
   }, []);
 
   useEffect(() => {
